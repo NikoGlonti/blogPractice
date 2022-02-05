@@ -1,0 +1,9 @@
+{% extends 'basic.html' %}
+
+{% block title %}Blog{% endblock %}
+
+{% block content %}
+    <p><a href="{% url 'registration' %}">Registration</a></p>
+    <p><a href="{% url 'login' %}">Login</a></p>
+    <p><a href="{% url 'post_list' %}">Posts</a></p>
+{% endblock %}
